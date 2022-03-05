@@ -1,6 +1,6 @@
-import com.dio.exercicios.Cliente;
-import com.dio.exercicios.Conta;
-import com.dio.exercicios.ContaCorrente;
+import com.dio.desafioBancoDigital.Cliente;
+import com.dio.desafioBancoDigital.Conta;
+import com.dio.desafioBancoDigital.ContaCorrente;
 
 import java.util.ArrayList;
 import java.util.List;

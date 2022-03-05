@@ -1,4 +1,4 @@
-package com.dio.exercicios;
+package com.dio.desafioBancoDigital;
 
 public class ContaCorrente extends Conta {
 

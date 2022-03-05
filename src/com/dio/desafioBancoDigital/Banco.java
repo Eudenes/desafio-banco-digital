@@ -1,4 +1,4 @@
-package com.dio.exercicios;
+package com.dio.desafioBancoDigital;
 
 import java.util.List;
 
