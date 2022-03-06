@@ -80,20 +80,13 @@ public abstract class Main {
             }
 
         }
-        System.out.println("");
-        for (Conta ct : contas) {
-            System.out.println("Id: " + ct.getCliente().getIdCliente() + "\tSaldo: " + ct.getSaldo());
-        }
 
+        // Habilitar área para quando encerrar as atividades listar as contas e o saldo final.
 
-//        Conta cp = new ContaPoupanca(Eudenes);
-//        cp.depositar(85.45);
-//        cp.transferir(5, cc);
-//        cp.sacar(0.45);
-//
-//        ((ContaCorrente) cc).imprimirExtrato();
-//        ((ContaPoupanca) cp).imprimirExtrato();
-
+//        System.out.println("");
+//        for (Conta ct : contas) {
+//            System.out.println("Id: " + ct.getCliente().getIdCliente() + "\tSaldo: " + ct.getSaldo());
+//        }
 
     }
 
@@ -129,11 +122,6 @@ public abstract class Main {
     }
 
     private static void listarClientes(int i) {
-
-//        System.out.println("**  Dados:  **");
-//
-//        System.out.println("Id: " + clientes.get(i).getIdCliente() + "\n" + "Nome:" + clientes.get(i).getNome());
-//        System.out.println("CPF: " + clientes.get(i).getCPF() + " " + "\n \n \n ");
 
         ((ContaCorrente) contas.get(i)).imprimirExtrato();
 
